@@ -25,6 +25,7 @@ struct SdelaemPoletKNebesm: View {
                 CoolTextLoadingView()
             }
         }
+        .teRugTrc()
         .onAppear() {
             vibrateHere(vibration: .heavy)
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
